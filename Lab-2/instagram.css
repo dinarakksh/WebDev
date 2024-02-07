@@ -1,0 +1,91 @@
+body{
+    background-color: #fff;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.form-container {
+  margin-left: 10px; /* Adjust margin as needed */
+}
+
+    
+#mini-facebook{
+    width: 20px;
+}
+form{
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+form p{
+    text-align: center;
+}
+#facebook, #f_psw{
+    align-items: center;
+}
+
+input[type='password']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-align: left;
+}
+input[type='text']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-align: left;
+
+}
+button{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2e9ef5;
+}
+#logo{
+    margin: auto;
+    display: block;
+}
+.download{
+    display: flex;
+}
+.download img{
+    width: 50%;
+}
+a{
+    text-align: center;
+}

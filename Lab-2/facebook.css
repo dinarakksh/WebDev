@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    max-width: 100%;
+    background-color: #F0F2F5;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+form{
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+input[type='password']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-align: left;
+}
+input[type='text']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-align: left;
+
+}
+button{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forget{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+.create{
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
+}
+.sublink h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe Ui' Arial;
+    padding: 50px 890px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+.sublink h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px ;
+
+}
+.f-container{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    font-family:'Segoe UI', Roboto, 'San Francisco' ;
+
+}
+.f-container img{
+    width: 350px;
+    margin-left: -30px;
+
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 3px;
+
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+footer ul,#meta{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: grey;
+    margin: 35px 270px 15px 270px;
+    padding: 3px;
+    word-spacing: 8px;
+}
+footer ul li{
+    margin-left: 5px;
+}
+footer ul li a{
+    color: grey;
+}
+
+.other-links{
+    margin-top: -10px;
+    line-height: 20px;
+}
+#meta{
+    margin-top: 20px;
+}
+.linee{
+        border-top: 1px solid #222;
+        opacity: 0.3;
+        width: 63%;
+        margin-left: 275px;
+}
+
